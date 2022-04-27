@@ -1,0 +1,25 @@
+package com.bridgelabz;
+
+public class LargestAmongThree {
+    void largestNumber(int a, int b, int c)
+    {
+        if (a>b && a>c)
+        {
+            System.out.println(a + " is the Greatest Number");
+        }
+        else if (b>a && b>c)
+        {
+            System.out.println(b + " is the Greatest Number");
+        }
+        else
+        {
+            System.out.println(c + " is the Greatest Number");
+        }
+    }
+    public static void main(String args[])
+    {
+        LargestAmongThree l = new LargestAmongThree();
+        l.largestNumber(12,9,65);
+        l.largestNumber(93,43,26);
+    }
+}
